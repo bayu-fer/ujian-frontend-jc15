@@ -1,0 +1,151 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "bayuferdiman1@gmail.com",
+      "password": "123qweads",
+      "role": "admin"
+    },
+    {
+      "email": "bayuferdiman1@gmail.com",
+      "password": "123qweasd",
+      "id": 2
+    },
+    {
+      "email": "123qwe@mail.com",
+      "password": "123qweasd",
+      "id": 3
+    }
+  ],
+  "categories": [
+    {
+      "id": 0,
+      "category": "All"
+    },
+    {
+      "id": 1,
+      "category": "satu"
+    },
+    {
+      "id": 2,
+      "category": "dua"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "categoryID": 1,
+      "name": "JETE W5 WEBCAM",
+      "stock": 16,
+      "price": 5000,
+      "image": "https://www.plazakamera.com/wp-content/uploads/2020/07/Jual-Jete-W5-Webcam-Harga-Murah-Terbaik-dan-Spesifikasi.jpg?x45822"
+    },
+    {
+      "id": 2,
+      "categoryID": 1,
+      "name": "LogiTech C615 WEBCAM",
+      "stock": 0,
+      "price": 4000,
+      "image": "https://www.plazakamera.com/wp-content/uploads/2020/06/Jual-Logitech-C615-HD-Webcam-Harga-Murah-Terbaik-dan-Spesifikasi.jpg?x45822"
+    },
+    {
+      "id": 3,
+      "categoryID": 2,
+      "name": "CANON AOS M1000",
+      "stock": 8,
+      "price": 20000,
+      "image": "https://www.plazakamera.com/wp-content/uploads/2017/09/Thumb-Canon-EOS-M100-Kit-EF-M-15-45mm-Black.jpg"
+    },
+    {
+      "id": 4,
+      "categoryID": 2,
+      "name": "CANON EOS M50",
+      "stock": 20,
+      "price": 50000,
+      "image": "https://www.plazakamera.com/wp-content/uploads/2018/03/Jual-Kamera-Mirrorless-Canon-EOS-M50-Kit-15-45mm-Terbaik-Harga-Murah-Spesifikasi.jpg"
+    },
+    {
+      "id": 5,
+      "categoryID": 3,
+      "name": "FUJIFILM INSTAX",
+      "stock": 5,
+      "price": 100000,
+      "image": "https://www.plazakamera.com/wp-content/uploads/2016/10/jual-kamera-Fujifilm-Instax-Mini-70-Canary-Yellow-harga-murah.jpg"
+    }
+  ],
+  "cart": [
+    {
+      "name": "JETE W5 WEBCAM",
+      "categoryID": 1,
+      "image": "https://www.plazakamera.com/wp-content/uploads/2020/07/Jual-Jete-W5-Webcam-Harga-Murah-Terbaik-dan-Spesifikasi.jpg?x45822",
+      "qty": 5,
+      "userID": 7,
+      "price": 4000,
+      "id": 1
+    },
+    {
+      "name": "LogiTech C615 WEBCAM",
+      "categoryID": 2,
+      "image": "https://www.plazakamera.com/wp-content/uploads/2020/06/Jual-Logitech-C615-HD-Webcam-Harga-Murah-Terbaik-dan-Spesifikasi.jpg?x45822",
+      "qty": 5,
+      "userID": 7,
+      "price": 20000,
+      "id": 2
+    },
+    {
+      "name": "CANON AOS M1000",
+      "categoryID": 2,
+      "image": "https://www.plazakamera.com/wp-content/uploads/2017/09/Thumb-Canon-EOS-M100-Kit-EF-M-15-45mm-Black.jpg",
+      "qty": 5,
+      "userID": 7,
+      "price": 50000,
+      "id": 3
+    },
+    {
+      "name": "CANON EOS M50",
+      "categoryID": 3,
+      "image": "https://www.plazakamera.com/wp-content/uploads/2018/03/Jual-Kamera-Mirrorless-Canon-EOS-M50-Kit-15-45mm-Terbaik-Harga-Murah-Spesifikasi.jpg",
+      "qty": 4,
+      "userID": 7,
+      "price": 100000,
+      "id": 4
+    }
+  ],
+  "transaction": [
+    {
+      "date": "17-11-2020",
+      "total": 29000,
+      "items": [
+        {
+          "name": "JETE W5 WEBCAM",
+          "categoryID": 1,
+          "image": "https://www.plazakamera.com/wp-content/uploads/2020/07/Jual-Jete-W5-Webcam-Harga-Murah-Terbaik-dan-Spesifikasi.jpg?x45822",
+          "qty": 1,
+          "userID": 2,
+          "price": 5000,
+          "id": 8
+        },
+        {
+          "name": "LogiTech C615 WEBCAM",
+          "categoryID": 1,
+          "image": "https://www.plazakamera.com/wp-content/uploads/2020/06/Jual-Logitech-C615-HD-Webcam-Harga-Murah-Terbaik-dan-Spesifikasi.jpg?x45822",
+          "qty": 1,
+          "userID": 2,
+          "price": 4000,
+          "id": 9
+        },
+        {
+          "name": "CANON AOS M1000",
+          "categoryID": 2,
+          "image": "https://www.plazakamera.com/wp-content/uploads/2017/09/Thumb-Canon-EOS-M100-Kit-EF-M-15-45mm-Black.jpg",
+          "qty": 1,
+          "userID": 2,
+          "price": 20000,
+          "id": 10
+        }
+      ],
+      "userID": 2,
+      "id": 3
+    }
+  ]
+}
