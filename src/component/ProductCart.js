@@ -10,10 +10,11 @@ import { ProductModal } from "./";
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 500,
+	maxWidth: 4000,
+	maxHeight: 700
   },
   media: {
-    height: 300,
+    height: 200,
     objectFit: "cover",
   },
 });

@@ -33,23 +33,22 @@ class LandingPage extends Component {
         <div>
           <div>
             <Jumbotron>
-              <h1 className="display-3">KAMERAKAWAN</h1>
+              <h1 className="display-3" style={{}}>
+                KAMERAKAWAN
+              </h1>
               <p className="lead">
-              Selamat datan di Toko Kami, disini kami menyediakan berbagai macam macam kamera
+                Selamat datan di Toko Kami, disini kami menyediakan berbagai
+                macam macam kamera
               </p>
               <hr className="my-2" />
-              <p>
-                Langsung Checkout yaa, Jepret Momentmu diakhir tahun ini
-              </p>
+              <p>Langsung Checkout yaa, Jepret Momentmu diakhir tahun ini</p>
               <p className="lead">
                 <Button color="primary">Learn More</Button>
               </p>
             </Jumbotron>
           </div>
         </div>
-        <div className='d-flex'>
-        {this.renderCard()}
-        </div>
+        <div className="d-flex">{this.renderCard()}</div>
       </div>
     );
   }

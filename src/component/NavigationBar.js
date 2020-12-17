@@ -86,7 +86,7 @@ class NavBar extends Component {
                 <DropdownToggle nav caret>
                   <AccountBoxIcon/>
                 </DropdownToggle>
-                {/* {this.renderNavBarLoggedIn()} */}
+                {this.renderNavBarLoggedIn()}
               </UncontrolledDropdown>
             </Nav>
             {/* const cool = userEmail!== ? userEmail : "" */}
